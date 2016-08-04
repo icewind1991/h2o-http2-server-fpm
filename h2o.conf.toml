@@ -1,0 +1,9 @@
+[template]
+src   = "h2o.conf"
+dest  = "/etc/h2o/h2o.conf"
+keys = [
+    "/fpm/port",
+    "/fpm/host",
+    "/ssl/key",
+    "/ssl/cert"
+]
